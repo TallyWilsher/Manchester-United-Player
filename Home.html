@@ -3,20 +3,28 @@
 <html>
 	<head>
 		<title>Welcome to my Website</title>
+		<link rel="stylesheet" href="Home.css">
 		<div>
 		</div>
 	</head>
 <body>
 	<div>
-	<h1 data-selenium-id="welcome">Welcome to my website</h1>
-		<divclass="signInModal" data-selenium-id="signInModal">
-		<div class="signInInputs" data-selenium-id="signInInputs">
-		<input class="userName" data-selenium-id="userName">
-		<input class="password" data-selenium-id="password">
+		<h1 data-selenium-id="welcome">Welcome to my website</h1>
+		<div class="flex-container">
+			<div class="signInModal" data-selenium-id="signInModal">
+				<div class="signInInputs" data-selenium-id="signInInputs">
+					<p>User Name:</p>
+					<input class="userName" data-selenium-id="userName">
+					<p>Password:</p>
+					<input class="password" data-selenium-id="password">
+				</div>
+					<div class="btn">
+				<button href="somelinktoanotherpage" class="signInBtn" 
+					data-selenium-id="signInbtn">Sign In</button>
+					</div>
+				</div>
 		</div>
-			<button href="somelinktoanotherpage" data-selenium-id="signInbtn">Sign In</button>
-	</div>
-		</div>
+	</div>		
 </body>
 <footer></footer>
 </html>
