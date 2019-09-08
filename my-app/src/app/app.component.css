@@ -1,0 +1,7 @@
+h1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
