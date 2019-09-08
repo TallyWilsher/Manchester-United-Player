@@ -13,14 +13,17 @@
 		<div class="flex-container">
 			<div class="signInModal" data-selenium-id="signInModal">
 				<div class="signInInputs" data-selenium-id="signInInputs">
-					<p>User Name:</p>
-					<input class="userName" data-selenium-id="userName">
-					<p>Password:</p>
-					<input class="password" data-selenium-id="password">
+					<form>
+						<p>User Name:</p>
+						<input type="text" name="userName" class="userName" data-selenium-id="userName" required>
+						<p>Password:</p>
+						<input type="text" name="password" class="password" data-selenium-id="password" required>
+					</form>
+					
 				</div>
 					<div class="btn">
-				<button href="somelinktoanotherpage" class="signInBtn" 
-					data-selenium-id="signInbtn">Sign In</button>
+				<input type="submit" class="signInBtn" 
+					data-selenium-id="signInbtn"value="Submit">
 					</div>
 				</div>
 		</div>
