@@ -1,2 +1,3 @@
-# log-in-web
-This project is to help me create a user login using a database, html, css, typescript.
+# Come on you reds
+This project is to help me learn how angular (front-end) c# (backend) and SQl(database)
+ link together to create a web app.
