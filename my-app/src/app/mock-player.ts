@@ -1,16 +1,32 @@
 import { Player } from './player';
 
 export const PLAYERS: Player[] = [
-    { shirtNumber: 1, name: 'DE GEA'},
-    { shirtNumber: 5, name: 'MAGUIRE'},
-    { shirtNumber: 29, name: 'WAN-BISSAKA'},
-    { shirtNumber: 6, name: 'POGBA'},
-    { shirtNumber: 8, name: 'MATA'},
-    { shirtNumber: 14, name: 'LINGARD'},
-    { shirtNumber: 21, name: 'JAMES'},
-    { shirtNumber: 10, name: 'RASHFORD'},
-    { shirtNumber: 9, name: 'MARTIAL'},
-    { shirtNumber: 26, name: 'GREENWOOD'},
-    { shirtNumber: 17, name: 'FRED'},
+    {
+        playerName: 'DE GEA',
+        playerNumber: 1,
+        playerNationality: 'England',
+        playerPosition: 'Forward',
+        playerAppearances: 101,
+        playerGoals: 30,
+        playerAssists: 3,
+    },
+    {
+        playerName: 'Marcus Rashford',
+        playerNumber: 1,
+        playerNationality: 'England',
+        playerPosition: 'Forward',
+        playerAppearances: 101,
+        playerGoals: 30,
+        playerAssists: 3,
+    },
+    {
+        playerName: 'Tally Wilsher',
+        playerNumber: 1,
+        playerNationality: 'England',
+        playerPosition: 'Forward',
+        playerAppearances: 101,
+        playerGoals: 30,
+        playerAssists: 3,
+    }
 ];
 

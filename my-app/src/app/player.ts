@@ -1,4 +1,9 @@
 export class Player {
-    shirtNumber: number;
-    name: string;
+    playerName: string;
+    playerNumber: number;
+    playerNationality: string;
+    playerPosition: string;
+    playerAppearances: number;
+    playerGoals: number;
+    playerAssists: number;
 }

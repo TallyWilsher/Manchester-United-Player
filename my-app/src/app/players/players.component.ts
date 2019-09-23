@@ -8,8 +8,13 @@ import { Player} from '../player';
 })
 export class PlayersComponent implements OnInit {
   player: Player = {
-    shirtNumber: 10,
-    name: 'Rashford'
+    playerName: 'Marcus Rashford',
+    playerNumber: 10,
+    playerNationality: 'England',
+    playerPosition: 'Forward',
+    playerAppearances: 117,
+    playerGoals: 30,
+    playerAssists: 25
   };
 
   constructor() {}

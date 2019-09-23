@@ -1,4 +1,94 @@
-<h2>Top Players</h2>
-<h1>{{player.name | uppercase}} Details</h1>
-<div>{{player.shirtNumber}}</div>
-<div>{{player.name}}</div>
+
+<div>
+        <label>Enter name:
+            <input/>
+        </label>
+        <div>
+            <button>Search</button>
+        </div>
+</div>
+
+<div class="footballImg">
+    <p>THis is where the image of each player will go</p>
+</div>
+
+<div class='footballerBox'>
+    <label>NAME:
+        <div class='footballerName'>{{player.playerName | uppercase}}</div>
+    </label>
+    <label>NUMBER:
+        <div class='footballerNumber'>{{player.playerNumber}}</div>
+    </label>
+    <label>NATIONALITY:
+        <div class='footballerNationality'>{{player.playerNationality}}</div>
+    </label>
+    <label>POSITION:
+        <div class='footballerPosition'>{{player.playerPosition}}</div>
+    </label>
+    <label>APPEARANCES
+        <div class='footballerApperances'>{{player.playerAppearances}}</div>
+    </label>
+    <label>GOALS:
+        <div class='footballerGoals'>{{player.playerGoals}}</div>
+    </label>
+    <label>ASSISTS:
+        <div class='footballerAssists'>{{player.playerAssists}}</div>
+    </label>
+</div>
+
+<div class='footballerBox'>
+        <label>NAME:
+            <div class='footballerName'>{{player.playerName | uppercase}}</div>
+        </label>
+        <label>NUMBER:
+            <div class='footballerNumber'>{{player.playerNumber}}</div>
+        </label>
+        <label>NATIONALITY:
+            <div class='footballerNationality'>{{player.playerNationality}}</div>
+        </label>
+        <label>POSITION:
+            <div class='footballerPosition'>{{player.playerPosition}}</div>
+        </label>
+        <label>APPEARANCES
+            <div class='footballerApperances'>{{player.playerAppearances}}</div>
+        </label>
+        <label>GOALS:
+            <div class='footballerGoals'>{{player.playerGoals}}</div>
+        </label>
+        <label>ASSISTS:
+            <div class='footballerAssists'>{{player.playerAssists}}</div>
+        </label>
+    </div>
+
+<div class='footballerBox'>
+    <label>NAME:
+        <div class='footballerName'>{{player.playerName | uppercase}}</div>
+    </label>
+    <label>NUMBER:
+        <div class='footballerNumber'>{{player.playerNumber}}</div>
+    </label>
+    <label>NATIONALITY:
+        <div class='footballerNationality'>{{player.playerNationality}}</div>
+    </label>
+    <label>POSITION:
+        <div class='footballerPosition'>{{player.playerPosition}}</div>
+    </label>
+    <label>APPEARANCES
+        <div class='footballerApperances'>{{player.playerAppearances}}</div>
+    </label>
+    <label>GOALS:
+        <div class='footballerGoals'>{{player.playerGoals}}</div>
+    </label>
+    <label>ASSISTS:
+        <div class='footballerAssists'>{{player.playerAssists}}</div>
+    </label>
+</div>
+
+<!-- <div>
+        <label>Enter name:
+        <input [(ngModel)]="player.playerName")] placeholder="playerName"/>
+        </label>
+        <div>
+        <button>Search</button>
+        </div>
+    </div> -->

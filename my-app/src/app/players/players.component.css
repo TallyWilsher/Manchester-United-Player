@@ -1,0 +1,25 @@
+.footballerBox  {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    margin: 5px;
+    font-size: 20px;
+    border: solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footballImg {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    margin: 5px;
+    font-size: 20px;
+    border: solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
