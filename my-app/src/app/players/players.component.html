@@ -12,7 +12,7 @@
     <p>THis is where the image of each player will go</p>
 </div>
 
-<div class='footballerBox'>
+<div class='footballerBox' *ngFor="let player of PLAYERS">
     <label>NAME:
         <div class='footballerName'>{{player.playerName | uppercase}}</div>
     </label>

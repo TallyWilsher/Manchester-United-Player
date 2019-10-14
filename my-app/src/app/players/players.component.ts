@@ -21,4 +21,11 @@ export class PlayersComponent implements OnInit {
 
   ngOnInit() {}
 
+  /**
+  async  * getPlayerLis: t
+   */
+  public async getPlayerList():  {
+    
+  }
+
 }
